@@ -28,6 +28,7 @@ jobs:
         run: |
           git config --global user.email "kacper.chetkowski@gmail.com"
           git config --global user.name "Kacper Chętkowski"
+          git remote set-url https://capi1500@github.com/capi1500/capi1500.github.io
       - name: Run deployment
         run: |
           npm install
